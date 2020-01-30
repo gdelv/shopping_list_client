@@ -9,10 +9,10 @@ const Nav = () => {
 				<NavLink exact to='/' activeClassName='active'>
 					Home
 				</NavLink>
-				<NavLink exact to='/post' activeClassName='active'>
+				<NavLink exact to='/posts' activeClassName='active'>
 					Posts
 				</NavLink>
-				<NavLink exact to='/post/create' activeClassName='active'>
+				<NavLink exact to='/posts/create' activeClassName='active'>
 					Add A Post
 				</NavLink>
 			{/* </Flex> */}

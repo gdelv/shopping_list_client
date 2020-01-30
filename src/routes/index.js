@@ -9,9 +9,9 @@ export const Routes = (props) => {
     return (
         <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/post' component={Posts} />
-            <Route exact path='/post/create' component={CreatePost} />
-            <Route exact path='/post/edit/:post_id' component={EditPost} />
+            <Route exact path='/posts' component={Posts} />
+            <Route exact path='/posts/create' component={CreatePost} />
+            <Route exact path='/posts/edit/:post_id' component={EditPost} />
 
         </Switch>
     )
